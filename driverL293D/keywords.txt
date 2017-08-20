@@ -1,0 +1,46 @@
+#######################################
+# Syntax Coloring Map For driverL293D
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+driverL293D	KEYWORD1
+Motor	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+getDirection	KEYWORD2
+setDirection	KEYWORD2
+enableMotor	KEYWORD2
+move	KEYWORD2
+reverse	KEYWORD2
+begin	KEYWORD2
+getDirection	KEYWORD2
+setDirection	KEYWORD2
+getState	KEYWORD2
+setState	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+M_SX	LITERAL1
+M_DX	LITERAL1
+M_START	LITERAL1
+M_STOP	LITERAL1
+M_ENABLED	LITERAL1
+M_DISABLED	LITERAL1
+M_UP	LITERAL1
+M_DOWN	LITERAL1
+M_FRONT	LITERAL1
+M_BACK	LITERAL1
+M_25%_VEL	LITERAL1
+M_50%_VEL	LITERAL1
+M_75%_VEL	LITERAL1
+M_MAX_VEL	LITERAL1
+
+

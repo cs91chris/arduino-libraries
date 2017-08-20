@@ -1,0 +1,32 @@
+#######################################
+# Syntax Coloring Map For Signal
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Pin	KEYWORD1
+State	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+write	KEYWORD2
+read	KEYWORD2
+setMode	KEYWORD2
+getMode	KEYWORD2
+getPin	KEYWORD2
+switchState	KEYWORD2
+getState	KEYWORD2
+setState	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+PWM_25	LITERAL1
+PWM_50	LITERAL1
+PWM_75	LITERAL1
+PWM_MAX	LITERAL1
