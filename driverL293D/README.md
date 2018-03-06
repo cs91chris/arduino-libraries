@@ -6,7 +6,7 @@ You do not worry about setting enable motor or direction configuration
 
 # Example1: move motor and reverse direction repetedly
 
-<code>
+<pre>
 Motor motor(7, 8, 9);
 
 void setup() {
@@ -19,11 +19,11 @@ void loop() {
   delay(1000);
   motor.reverse();
 }
-</code>
+</pre>
 #
 
 # Example2: regulate velocity (pwm)
-<code>
+<pre>
 Motor motor(7, 8, 9);
 
 void setup() {
@@ -34,4 +34,4 @@ void setup() {
 void loop() {
 
 }
-</code>
+</pre>
