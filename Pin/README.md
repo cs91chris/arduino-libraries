@@ -6,7 +6,7 @@ You do not worry about setting mode, check analog or pwm, etc.
 
 # Example1: blinking a led on pin 10
 
-<pre>
+<code>
 Pin mypin;
 
 void setup() {
@@ -17,11 +17,11 @@ void loop() {
   mypin.switchState();
   delay(1000);
 }
-</pre>
+</code>
 #
 
 # Example2: read analog values on pin A0
-<pre>
+<code>
 Pin mypin;
 
 void setup() {
@@ -32,4 +32,4 @@ void loop() {
   Serial.println(mypin.read());
   delay(1000);
 }
-</pre>
+</code>
