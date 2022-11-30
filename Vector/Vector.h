@@ -8,13 +8,6 @@
 
 class Vector
 {
-    private:
-        void** items;
-        size_t size;
-        size_t capacity;
-
-        void resize(size_t);
-
     public:
         void  init();
         void  add(void*);
@@ -23,6 +16,13 @@ class Vector
         void  set(size_t, void*);
 
         size_t len() const { return size; }
+	
+	private:
+        void** items;
+        size_t size;
+        size_t capacity;
+
+        void resize(size_t);
 };
 
 #endif

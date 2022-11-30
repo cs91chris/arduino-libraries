@@ -8,6 +8,8 @@
 
 #include <Arduino.h>
 
+#define MS 1000
+
 
 class Timer 
 {
@@ -19,7 +21,6 @@ class Timer
         uint16_t waitMS(uint16_t interval);
 
     private:
-        static const uint16_t _K_ = 1000;
         uint64_t lastTime;
 };
 

@@ -26,5 +26,5 @@ uint16_t Timer::waitMS(uint16_t interval)
 void Timer::delayMS(uint16_t s)
 {
     while(s--)
-        delayMicroseconds(_K_);
+        delayMicroseconds(MS);
 }

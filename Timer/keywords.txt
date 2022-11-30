@@ -20,3 +20,4 @@ waitMS	KEYWORD2
 # Constants (LITERAL1)
 #######################################
 
+MS	LITERAL1
