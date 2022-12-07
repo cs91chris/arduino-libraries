@@ -1,0 +1,30 @@
+#######################################
+# Syntax Coloring Map For Button
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+BYJStepper	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setup	KEYWORD2
+stop	KEYWORD2
+steps	KEYWORD2
+clockWise	KEYWORD2
+clockWiseFull	KEYWORD2
+clockWiseHalf	KEYWORD2
+antiClockWise	KEYWORD2
+antiClockWiseFull	KEYWORD2
+antiClockWiseHalf	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+FULL_ROTATION	LITERAL1
+HALF_ROTATION	LITERAL1
